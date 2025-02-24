@@ -10,7 +10,7 @@ class PredictionPipeline:
 
     def predict(self):
         # Load the pre-trained model
-        model_path = os.path.join("artifacts", "training", "model.h5")
+        model_path = "model/model.h5"
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"Model file not found at {model_path}")
         model = load_model(model_path)
