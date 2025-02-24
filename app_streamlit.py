@@ -56,7 +56,7 @@ def decodeImage(image_string, filename):
 
 # Streamlit UI
 def main():
-    st.title("Image Classification App")
+    st.title("adenocarcinoma-cancer-detection 🧑‍⚕️🏥")
 
     # Training section (optional, adjust based on your setup)
     if st.button("Train Model"):
