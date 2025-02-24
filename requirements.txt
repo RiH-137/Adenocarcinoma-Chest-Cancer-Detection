@@ -1,0 +1,26 @@
+tensorflow
+pandas 
+gdown
+dvc
+mlflow
+jupyterlab
+notebook
+dagshub
+jupyter
+numpy
+matplotlib
+seaborn
+python-box
+pyYAML
+tqdm
+ensure
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+pydrive
+-e .
