@@ -1,4 +1,40 @@
-# Adenocarcinoma-Chest-Cancer-Classification-using-MLflow-DVC
+# Adenocarcinoma-Chest-Cancer-Classification-using-MLflow-DVC-AWS 
+## MLOPS / DLOPS
+
+![Header Image](https://via.placeholder.com/800x200.png?text=Adenocarcinoma+Cancer+Detection)  
+*A Streamlit-based web application to classify chest CT scans for adenocarcinoma cancer detection using deep learning.*
+
+---
+
+## Overview
+
+This project is a machine learning-powered web application built with Streamlit and TensorFlow to classify chest CT scan images as **Normal** or **Adenocarcinoma Cancer**. Deployed on AWS (EC2 via ECR) and optionally on Streamlit Community Cloud, it provides an intuitive interface for uploading images and viewing detailed prediction results, including probabilities and class indices.
+
+### Live Demo
+- **AWS Deployment**: [http://54.211.105.80:8501](http://54.211.105.80:8501)  
+- **Streamlit Cloud**: [https://adenocarcinoma-cancer-detection.streamlit.app/](https://adenocarcinoma-cancer-detection.streamlit.app/)
+
+---
+
+## Features
+
+- **Image Classification**: Upload a chest CT scan (JPG, JPEG, PNG) and get instant predictions.
+- **Detailed Output**: View the final prediction, raw probabilities, and class index.
+- **AWS Integration**: Model fetched from S3 or bundled in the container for robust deployment.
+- **User-Friendly UI**: Built with Streamlit for a seamless experience.
+
+---
+
+## Tech Stack
+
+- **Frontend**: Streamlit
+- **Backend**: Python, TensorFlow, NumPy
+- **Model**: Pre-trained Convolutional Neural Network (CNN)
+- **AWS Services**: ECR (Docker hosting), EC2 (self-hosted runner), S3 (model storage)
+- **CI/CD**: GitHub Actions
+- **Containerization**: Docker
+
+---
 
 
 ## Workflows
