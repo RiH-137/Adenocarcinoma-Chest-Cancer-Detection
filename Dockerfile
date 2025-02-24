@@ -1,20 +1,12 @@
-## using a more recent slim image based on Debian Bookworm
-FROM python:3.12-slim
+FROM python:3.12-slim-buster
 
-# working directory
+RUN apt update -y && apt install awscli -y
 WORKDIR /app
 
-## Installing system dependencies (awscli and updates)
-RUN apt-get update -y && \
-    apt-get install -y awscli && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
-
-# Coping project files
 COPY . /app
+RUN pip install -r requirements.txt
 
-# Installing Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+
 
 # Expose the default Streamlit port
 EXPOSE 8501
