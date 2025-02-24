@@ -1,7 +1,7 @@
 # Adenocarcinoma-Chest-Cancer-Classification-using-MLflow-DVC-AWS 
 ## MLOPS / DLOPS
 
-![Header Image](https://via.placeholder.com/800x200.png?text=Adenocarcinoma+Cancer+Detection)  
+
 *A Streamlit-based web application to classify chest CT scans for adenocarcinoma cancer detection using deep learning.*
 
 ---
