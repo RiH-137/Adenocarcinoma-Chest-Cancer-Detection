@@ -182,3 +182,7 @@ DVC
 
     ECR_REPOSITORY_NAME = simple-app
 
+
+Note:-
+app.py --> Work perfectly on localhost.
+app_streamlit.py --> work perfectly on cloud server.
